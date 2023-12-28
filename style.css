@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: cursive;
+  background-image: url("https://media.istockphoto.com/id/1644722689/photo/autumn-decoration-with-leafs-on-rustic-background.webp?b=1&s=170667a&w=0&k=20&c=aRdPqMJ6LUu_5l8yLzYEEh6dJqXsTBbNRUozBCwEKjs=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgb(76, 76, 253); */
+  color: white;
+}
+
+.container {
+  height: 98%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.center {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.imgB {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+h3 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+button {
+  font-family: cursive;
+  height: 35px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#imgH,
+#imgC {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  font-size: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btnM {
+  width: 150px;
+  margin-top: 20px; /* Adjust margin as needed */
+}
