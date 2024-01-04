@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
   p1.style.display = "none";
   p2.style.display = "none";
 
-  // Hide the "Mind Change" button initially
   mindChangeBtn.style.display = "none";
 
   agreeBtn.addEventListener("click", function () {
